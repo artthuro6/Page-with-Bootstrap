@@ -1,1 +1,14 @@
 /*EStilos para utilizar dentro del index*/
+
+body{
+    background: #660099;
+}
+
+#footer{
+    background: #666666;
+}
+
+#footer a{
+    /*text-decoration: none;*/
+    color: azure;
+}
