@@ -1,5 +1,13 @@
 /*EStilos para utilizar dentro del index*/
 
+#header img{
+    width: 80px;
+}
+
+.text-emp {
+    color: #669999 !important;
+}
+
 body{
     background: #660099;
 }
