@@ -12,6 +12,12 @@ body{
     background: #660099;
 }
 
+/* Estilos para imagenes del Carousel */
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+}
+
 #footer{
     background: #666666;
 }
