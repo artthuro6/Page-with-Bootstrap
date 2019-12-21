@@ -39,6 +39,15 @@ body{
     height: 100%;
 }
 
+/* Estilo para la seccion del place time */
+#place-time{
+    background-color: #779CA1;
+    color: white;
+}
+
+#place-time img{
+    max-width: 100%;
+}
 
 #footer{
     background: #666666;
