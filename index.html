@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +11,8 @@
 
     <title>Pagina Bootstrap</title>
   </head>
-  <body>
+  <!--Agregar el Scrollspy en el body-->
+  <body data-spy="scroll" data-target="#navbar">
 
 
     <!--Inicio del Header-->
@@ -23,10 +25,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#main">Inicio </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Productos</a>
@@ -35,13 +37,13 @@
               <a class="nav-link" href="#">Conocenos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiencias</a>
+              <a class="nav-link" href="#cards-people">Experiencias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-emp" href="#">Compras</a>
+              <a class="nav-link text-emp" href="#more-priductos">Proximamente</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tienda</a>
+              <a class="nav-link" href="#relleno-formulario">Tienda</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -107,7 +109,7 @@
           <div class="row ">          
             <div class="col text-center text-uppercase">
               <small>Productos destacados</small>
-              <h2>Opiniones</h2>
+              <h2>Experiencias</h2>
             </div>
           </div>
           <div class="row">
