@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Pagina Bootstrap</title>
+  </head>
+  <!--Agregar el Scrollspy en el body-->
+  <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="57">
+
+
+    <!--Inicio del Header-->
+    <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <!--<div class="container"> Opcional -->
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#modalProductos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conocenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cards-people">Experiencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#more-priductos">Proximamente</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#relleno-formulario">Tienda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Iniciar Sesion
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Tengo una cuenta</a>
+                <a class="dropdown-item" href="#">Soy nuevo</a>
+              </div>
+            </li>
+            <!--Elemento desabilitado-->
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">¿Quienes somos?</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      <!--</div> opcional-->
+    </nav>
+    <!--Fin del Header-->
+
+
+    <!--Formulario-->
+    <div class="container">
+        <form class="mt-4 mb-4">
+            <div class="form-row">
+              <div class="form-group col-md-8">
+                <label for="inputEmail4">Correo</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputPassword4">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="form-group col-md-4">
+                <label for="inputAddress2">Confirma tu contraseña</label>
+                <input type="password" class="form-control" id="inputPassword2">
+                </div>
+            </div>
+
+
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputState">Estado</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Tu estado...</option>
+                  <option>Puebla</option>
+                  <option>CD MX</option>
+                  <option>Veracruz</option>
+                </select>
+             </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Acepto terminos y condiciones
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrarme</button>
+          </form>
+    </div>
+    <!--Formulario-->
+    
+
+    <!--Inico del footer-->
+    <footer id="footer" class="pb-4 pt-4">
+      <div class="container">
+        <!--Filas-->
+        <div class="row text-center">
+          <!--Columnas-->
+          <div class="col-12 col-lg">
+            <a href="#">Preguntas</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Contacto</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Terminos y condiciones</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Privacidad</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Fin del footer-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
